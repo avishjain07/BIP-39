@@ -1,12 +1,5 @@
 csrc = $(wildcard *.c) \
-$(wildcard crypto/*.c) 
-#$(wildcard crypto/aes/*.c) \
-#$(wildcard crypto/chacha20poly1305/*.c) \
-#$(wildcard ed25519-donna/*.c) \
-#$(wildcard crypto/fuzzer/*.c) \
-#$(wildcard crypto/monero/*.c) \
-#$(wildcard crypto/tools/*.c) \
-#$(wildcard crypto/tests/*.c) 
+$(wildcard crypto/*.c)
 
 obj=$(csrc: .c=.o)
 
